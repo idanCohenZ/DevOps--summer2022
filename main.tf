@@ -1,4 +1,4 @@
-//declaring the Sapak i am working with (the suppplier of the cloud)
+//declaring the Provider i am working with (the suppplier of the cloud)
 terraform {
   required_providers {
     aws = {
@@ -7,7 +7,7 @@ terraform {
     }
   }
 }
-//Setting the region to New York
+
 provider "aws" {
   region = "us-east-2"
 
